@@ -11,13 +11,14 @@ def on_message(client, userdata, msg):
     client.loop_stop()
     # Call external command while receiving data from the mqtt broker.
     from subprocess import call
-    call(["ls", "-al"])
+    call(["magellan-cli", "mqtt", "pub", "worker/sensor", str(msg.payload)])
     
 
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
 
-client.connect("test.mosquitto.org", 1883, 60)
+#client.connect("test.mosquitto.org", 1883, 60)
+client.connect("192.168.1.148", 1883, 60)
 
 client.loop_forever()
