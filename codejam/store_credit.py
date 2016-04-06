@@ -35,7 +35,7 @@ def read_data(filename):
 
         (pick_item_idx, pair_item_idx) = pick_items(credit, item, prices)
 
-        print("Credit = %d, Case #%d: %d %d" % (credit, case_idx, pick_item_idx+1, pair_item_idx+1))
+        print("Case #%d: %d %d" % (case_idx, pick_item_idx+1, pair_item_idx+1))
         case_idx += 1
 
 
@@ -48,13 +48,12 @@ def pick_items(credit, item, prices):
         pick_item_idx = i
         pair_item = credit - pick_item
 
-        if str(pair_item) in prices:
+        if str(pair_item) in prices[i+1:]:
             pair_item_indices = [ idx for idx, x in enumerate(prices) if x == str(pair_item) ] # http://stackoverflow.com/questions/6294179/how-to-find-all-occurrences-of-an-element-in-a-list
 
             if len(pair_item_indices) == 1:
                 pair_item_idx = pair_item_indices[0]
             elif len(pair_item_indices) == 2:
-                print("Multiple indices")
                 pair_item_idx = pair_item_indices[1]
             else:
                 print("Wrong indices. Exit the program")
