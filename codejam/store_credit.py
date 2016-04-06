@@ -60,7 +60,7 @@ def pick_items(credit, item, prices):
                 sys.exit()
 
             # since Each test case will have exactly one solution, return here.
-            return (pick_item_idx, pair_item_idx)
+            return min(pick_item_idx, pair_item_idx), max(pick_item_idx, pair_item_idx)
 
     print("No matches in this case. Exit the program")
     sys.exit()
