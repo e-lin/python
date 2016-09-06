@@ -1,25 +1,11 @@
-#
-# code jam practice
-# https://code.google.com/codejam/contest/544101/dashboard#s=p0
-#
-
 def read_file(filename):
     with open(filename) as fd:
         input_list = fd.read().splitlines()
 
     return input_list
 
-def rotate(clockwise = True):
-    pass
-
-def gravity():
-    pass
-
-def is_cross(K):
-    pass
 
 import sys
-
 def main(argv):
     if not argv:
         print "Enter filename."

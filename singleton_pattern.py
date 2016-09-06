@@ -25,6 +25,11 @@ class OnlyOne:
     def __getattr__(self, name):
         return getattr(self.instance, name)
 
+class Two:
+    def __init__(self, arg):
+        self.val = arg
+    def __getattr__(self, name):
+        return 'default'
 
 
 def main():
@@ -37,6 +42,15 @@ def main():
     print(x)
     print(y)
 
+    print "======================="
+    x = Two("sausage")
+    print(x)
+    y = Two("eggs")
+    print(y)
+    z = Two("spam")
+    print(z)
+    print(x)
+    print(y)
 
 if "__main__" == __name__:
     main()
