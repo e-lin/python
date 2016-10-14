@@ -17,6 +17,7 @@ Resources for learning Python:
 - [Python Algorithms][R6]
 - [Python 極客學院][R7]
 - [Google Python Style Guide][R8]
+- [Python奇技淫巧][R9]
 
 
 [R1]: http://www.greenteapress.com/thinkpython/html/
@@ -27,3 +28,4 @@ Resources for learning Python:
 [R6]: http://hujiaweibujidao.github.io/python/
 [R7]: http://www.jikexueyuan.com/course/pythonbase/
 [R8]: http://google.github.io/styleguide/pyguide.html
+[R9]: http://andrewliu.in/2015/11/14/Python%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/
