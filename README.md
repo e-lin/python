@@ -20,6 +20,13 @@ Resources for learning Python:
 - [Python奇技淫巧][R9]
 
 
+IPython/Numpy
+---
+- [Jupyter 科學計算實驗室][R10]
+- [Python Numpy Tutorial][R11]
+- [IPython Tutorial][R12]
+
+
 [R1]: http://www.greenteapress.com/thinkpython/html/
 [R2]: http://www.openbookproject.net/thinkcs/python/english3e/index.html#
 [R3]: http://interactivepython.org/runestone/static/pythonds/index.html
@@ -29,3 +36,6 @@ Resources for learning Python:
 [R7]: http://www.jikexueyuan.com/course/pythonbase/
 [R8]: http://google.github.io/styleguide/pyguide.html
 [R9]: http://andrewliu.in/2015/11/14/Python%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/
+[R10]: http://nbviewer.jupyter.org/github/yenlung/ScientificLab/blob/master/Jupyter_Lab.ipynb
+[R11]: http://cs231n.github.io/python-numpy-tutorial/
+[R12]: http://cs231n.github.io/ipython-tutorial/
