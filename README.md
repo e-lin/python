@@ -18,6 +18,7 @@ Resources for learning Python:
 - [Python 極客學院][R7]
 - [Google Python Style Guide][R8]
 - [Python奇技淫巧][R9]
+- [PEP 8 -- Style Guide for Python Code][R13]
 
 
 IPython/Numpy
@@ -39,3 +40,4 @@ IPython/Numpy
 [R10]: http://nbviewer.jupyter.org/github/yenlung/ScientificLab/blob/master/Jupyter_Lab.ipynb
 [R11]: http://cs231n.github.io/python-numpy-tutorial/
 [R12]: http://cs231n.github.io/ipython-tutorial/
+[R13]: https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces
