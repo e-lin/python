@@ -20,6 +20,7 @@ Resources for learning Python:
 - [Python奇技淫巧][R9]
 - [PEP 8 -- Style Guide for Python Code][R13]
 - [Python程序员常犯的10个错误][R14]
+- [py-patterns: 设计模式的Python版本][R15]
 
 
 IPython/Numpy
@@ -43,3 +44,4 @@ IPython/Numpy
 [R12]: http://cs231n.github.io/ipython-tutorial/
 [R13]: https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces
 [R14]: http://bookshadow.com/weblog/2014/05/14/top-10-mistakes-that-python-programmers-make/
+[R15]: https://github.com/wklken/py-patterns
